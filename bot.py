@@ -471,7 +471,6 @@ async def about_handler(c: Client, m: Message):
     await m.reply_text(
         text="""
 **ᴡʜᴀᴛ's ɴᴇᴡ:**
-👨‍💻 ʙᴀɴ/ᴜɴʙᴀɴ ᴜsᴇʀs
 👨‍💻 ᴇxᴛʀᴀᴄᴛ ᴀʟʟ ᴀᴜᴅɪᴏs ᴀɴᴅ sᴜʙᴛɪᴛʟᴇs ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ
 👨‍💻 ᴍᴇʀɢᴇ ᴠɪᴅᴇᴏ + ᴀᴜᴅɪᴏ 
 👨‍💻 ᴍᴇʀɢᴇ ᴠɪᴅᴇᴏ + sᴜʙᴛɪᴛʟᴇs
@@ -488,7 +487,7 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/yashoswalyo")],
+                [InlineKeyboardButton("👨‍💻Owner👨‍💻", url="https://t.me/subtouse")],
                 [
                     InlineKeyboardButton(
                         "🏘Source Code🏘", url="https://github.com/yashoswalyo/MERGE-BOT"
